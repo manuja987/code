@@ -17,5 +17,5 @@ const employeeRouter = require('./routes/employees')
 app.use('/employees',employeeRouter)
 
 app.listen(9000, () => {
-    console.log('Server started')
+    console.log('Server has been started')
 })
